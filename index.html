@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>천연기념물센터 | 수만 년의 시간과 살아 있는 자연을 만나는 곳</title>
+  <meta name="description" content="국내 유일의 자연유산 전문전시관, 천연기념물센터 공식 홈페이지입니다.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="preload" as="image" href="images/hero-poster.jpg">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip" href="#content">본문 바로가기</a>
+
+  <header class="header" id="header">
+    <div class="inner">
+      <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="천연기념물센터" width="216" height="46"></a></h1>
+
+      <nav class="gnb" aria-label="주 메뉴">
+        <ul class="gnb-list">
+          <li><a href="sub/route.html" class="gnb-link">관람·예약</a>
+            <ul class="gnb-sub"><li><a href="sub/guide.html">관람 안내</a></li><li><a href="sub/route.html">오시는 길</a></li><li><a href="sub/group.html">단체관람 예약</a></li><li><a href="sub/faq.html">자주 묻는 질문</a></li></ul>
+          </li>
+          <li><a href="sub/zone.html" class="gnb-link">전시</a>
+            <ul class="gnb-sub"><li><a href="sub/zone.html">전시관 둘러보기</a></li><li><a href="sub/special.html">기획전시</a></li></ul>
+          </li>
+          <li><a href="sub/edu.html" class="gnb-link">교육·체험</a>
+            <ul class="gnb-sub"><li><a href="sub/edu.html">교육프로그램</a></li><li><a href="sub/game.html">체험 게임</a></li></ul>
+          </li>
+          <li><a href="sub/event.html" class="gnb-link">소식·행사</a>
+            <ul class="gnb-sub"><li><a href="sub/notice.html">공지사항</a></li><li><a href="sub/event.html">행사 안내</a></li></ul>
+          </li>
+          <li><a href="sub/about.html" class="gnb-link">센터 소개</a>
+            <ul class="gnb-sub"><li><a href="sub/about.html">기관 소개</a></li><li><a href="sub/history.html">연혁</a></li></ul>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="sub/group.html" class="btn-reserve">관람 예약</a>
+      <button type="button" class="btn-menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="sr-only">전체 메뉴 열기</span><i></i><i></i><i></i>
+      </button>
+    </div>
+    <div class="gnb-bg" aria-hidden="true"></div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <div class="mm-head">
+      <img src="images/logo.png" alt="천연기념물센터" width="160" height="34">
+      <button type="button" class="mm-close"><span class="sr-only">전체 메뉴 닫기</span></button>
+    </div>
+    <nav class="mm-nav" aria-label="모바일 메뉴"></nav>
+    <a href="sub/group.html" class="mm-reserve">관람 예약하기</a>
+  </div>
+
+  <main id="content">
+
+    <!-- 메인 비주얼 -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <video class="hero-img" src="images/큰매머드 영상.mp4" poster="images/hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="전시관 무대 위 털매머드 영상" data-hero-video></video>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <button type="button" class="hero-play" aria-pressed="false" data-hero-toggle><span class="sr-only" data-hero-label>배경 영상 일시정지</span></button>
+      <div class="hero-txt">
+        <p class="hero-sub">국내 유일의 자연유산 전문전시관</p>
+        <h2 class="hero-title" id="heroTitle">수만 년의 시간과<br>살아 있는 자연을<br>만나는 곳</h2>
+      </div>
+      <svg class="hero-curve" viewBox="0 0 1920 30" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0Q960 64 1920 0V30H0Z"/></svg>
+    </section>
+
+    <!-- 오늘 운영 정보 -->
+    <div class="inner">
+      <section class="today" aria-label="오늘의 관람 정보">
+        <div class="today-name">
+          <p>국내 유일의 자연유산 전문전시관</p>
+          <strong>천연기념물센터</strong>
+        </div>
+        <div class="today-info">
+          <p class="today-state"><span class="state-pill" data-today-state>오늘 정상운영</span><span class="today-date" data-today-date>10. 14 (수)</span></p>
+          <dl class="today-dl">
+            <div><dt>관람시간</dt><dd data-hours>09:30 ~ 17:30</dd></div>
+            <div><dt>관람료</dt><dd>무료</dd></div>
+            <div><dt>휴관일</dt><dd>매주 월요일</dd></div>
+          </dl>
+        </div>
+        <a href="sub/group.html" class="btn-sage btn-ticket"><img src="images/icon-ticket.png" alt="" width="27" height="14">관람 예약하기</a>
+      </section>
+    </div>
+
+    <!-- 알림·홍보 -->
+    <section class="sec sec-notice" aria-labelledby="noticeTitle">
+      <svg class="deco deco-ammonite" viewBox="60 60 100 100" aria-hidden="true"><path d="M104 100l-.3 2.5-1.2 1.7-1.9 1.1-2.5.1-2.5-.9-2-2.1-1-3 .4-3.4 2-3.2 3.4-2.2 4.4-.5 4.5 1.4 3.8 3.5 2.1 5.3-.3 6.1-3.2 5.9-5.8 4.3-7.7 1.5-8.4-2.1-7.2-5.9-4.4-9.1V90l5-10.9 10-8.4 13.7-3.6 15.1 2.8 13.6 9.8 8.9 15.8 1.3 19.8-4.1 13.5"/><path d="M101.6 104.8l3.6 11.1M100 105.4v12.4M98.2 105.4l-4 12.6M96.4 104.9l-8.2 11.3M94.8 103.8l-12 8.7M93.5 102.1L78.5 107M92.7 100H76M92.7 97.6l-16.9-5.5M93.4 95.2L78.1 84.1M94.9 93L83.1 76.8M97.1 91.2L90.6 71M100 90.2V67.7M103.2 90.1l7.4-22.7M106.5 91.1l14.9-20.6M109.5 93.1l21.8-15.8M111.8 96.2l27.2-8.9M113.2 100h30.3M113.3 104.3l30.7 10"/></svg>
+      <svg class="deco deco-fern" viewBox="0 0 220 300" aria-hidden="true"><path d="M120 296c-16-76-22-156 8-278"/><g class="lf lf-l"><ellipse cx="82" cy="250" rx="30" ry="9" transform="rotate(-18 82 250)"/></g><g class="lf lf-r"><ellipse cx="140" cy="244" rx="30" ry="9" transform="rotate(18 140 244)"/></g><g class="lf lf-l"><ellipse cx="78" cy="208" rx="28" ry="8.5" transform="rotate(-20 78 208)"/></g><g class="lf lf-r"><ellipse cx="134" cy="202" rx="28" ry="8.5" transform="rotate(20 134 202)"/></g><g class="lf lf-l"><ellipse cx="78" cy="166" rx="25" ry="8" transform="rotate(-22 78 166)"/></g><g class="lf lf-r"><ellipse cx="130" cy="160" rx="25" ry="8" transform="rotate(22 130 160)"/></g><g class="lf lf-l"><ellipse cx="84" cy="124" rx="22" ry="7" transform="rotate(-24 84 124)"/></g><g class="lf lf-r"><ellipse cx="132" cy="118" rx="22" ry="7" transform="rotate(24 132 118)"/></g><g class="lf lf-l"><ellipse cx="94" cy="84" rx="18" ry="6" transform="rotate(-26 94 84)"/></g><g class="lf lf-r"><ellipse cx="136" cy="78" rx="18" ry="6" transform="rotate(26 136 78)"/></g></svg>
+
+      <div class="inner">
+        <div class="sec-head">
+          <svg class="sprout" viewBox="0 0 40 24" aria-hidden="true"><path d="M20 23V8" stroke="#8E9A78" stroke-width="1.8" stroke-linecap="round"/><path d="M20 15C14 15 10 11 9 6c6 0 10 3 11 9z" fill="#B6BEA3"/><path d="M20 11c6 0 10-4 11-9-6 0-10 3-11 9z" fill="#D9B8AC"/></svg>
+          <h2 id="noticeTitle">알림 · 홍보</h2>
+          <p>관람 정보와 센터 소식을 한눈에</p>
+        </div>
+
+        <div class="notice-grid">
+          <article class="card card-guide" aria-labelledby="guideTitle">
+            <h3 id="guideTitle">관람 안내</h3>
+            <dl class="guide-dl">
+              <div><dt>관람시간</dt><dd data-hours>09:30 ~ 17:30</dd></div>
+              <div><dt>입장 마감</dt><dd data-last-entry>17:00</dd></div>
+              <div><dt>관람료</dt><dd>무료</dd></div>
+            </dl>
+            <div class="closed">
+              <p class="closed-title"><strong data-closed-month>10월 휴관일</strong><span class="tag-auto">자동 갱신</span></p>
+              <ul class="closed-days" data-closed-days aria-label="이번 달 휴관일">
+                <li>5</li><li>12</li><li class="is-next">19</li><li>26</li>
+              </ul>
+              <p class="closed-note">매주 월요일 휴관</p>
+            </div>
+            <div class="guide-links">
+              <a href="#">이용안내</a><a href="#">편의시설</a><a href="#">오시는 길</a>
+            </div>
+          </article>
+
+          <article class="card card-promo" aria-label="홍보 배너">
+            <div class="tabs" role="tablist" aria-label="홍보 분류" data-promo-tabs>
+              <button type="button" role="tab" aria-selected="true" data-go="0">기획전시</button>
+              <button type="button" role="tab" aria-selected="false" data-go="1">교육</button>
+              <button type="button" role="tab" aria-selected="false" data-go="2">행사</button>
+              <button type="button" role="tab" aria-selected="false" data-go="3">공지</button>
+            </div>
+            <div class="promo" data-slider aria-roledescription="carousel">
+              <ul class="promo-track" data-track>
+                <li><a href="#"><img src="images/exhibit-geo.jpg" alt="기획전시 지질유산 연구, 3人3色" style="object-position:50% 60%"></a></li>
+                <li><a href="#"><img src="images/edu-guide.jpg" alt="교육: 자연유산알림이와 함께하는 전시 해설"></a></li>
+                <li><a href="#"><img src="images/event-contest.jpg" alt="행사: 2022 자연유산 체험사례 공모전 수상작품 전시회" style="object-position:0 50%"></a></li>
+                <li><a href="#"><img src="images/notice-chuseok.jpg" alt="공지: 추석 명절 연휴 전시관 운영 안내" style="object-position:50% 30%"></a></li>
+              </ul>
+              <button type="button" class="arrow arrow-prev" data-prev><span class="sr-only">이전 배너</span></button>
+              <button type="button" class="arrow arrow-next" data-next><span class="sr-only">다음 배너</span></button>
+            </div>
+          </article>
+
+          <div class="notice-side">
+            <article class="card card-news">
+              <div class="card-top">
+                <div class="tabs tabs-sage" role="tablist" aria-label="센터 소식">
+                  <button type="button" role="tab" aria-selected="true" aria-controls="newsPanel1" id="newsTab1">센터 소식</button>
+                  <button type="button" role="tab" aria-selected="false" aria-controls="newsPanel2" id="newsTab2">영상</button>
+                </div>
+                <a href="#" class="more">더보기 <span aria-hidden="true">+</span><span class="sr-only">센터 소식</span></a>
+              </div>
+              <div role="tabpanel" id="newsPanel1" aria-labelledby="newsTab1">
+                <a href="#" class="news-item"><img src="images/newsletter.jpg" alt="" width="170" height="110"><span>2024년 천연기념물센터 가을소식지</span></a>
+              </div>
+              <div role="tabpanel" id="newsPanel2" aria-labelledby="newsTab2" hidden>
+                <a href="#" class="news-item video"><span class="thumb"><img src="images/edu-guide.jpg" alt="" width="170" height="110"><i class="play" aria-hidden="true"></i></span><span>[영상 제목] 천연기념물센터 홍보 영상</span></a>
+              </div>
+            </article>
+
+            <article class="card card-board">
+              <div class="card-top">
+                <div class="tabs tabs-rose" role="tablist" aria-label="게시판">
+                  <button type="button" role="tab" aria-selected="true" aria-controls="boardPanel1" id="boardTab1">공지</button>
+                  <button type="button" role="tab" aria-selected="false" aria-controls="boardPanel2" id="boardTab2">채용</button>
+                  <button type="button" role="tab" aria-selected="false" aria-controls="boardPanel3" id="boardTab3">입찰</button>
+                </div>
+                <a href="#" class="more">더보기 <span aria-hidden="true">+</span><span class="sr-only">게시판</span></a>
+              </div>
+              <ul class="board" role="tabpanel" id="boardPanel1" aria-labelledby="boardTab1">
+                <li><a href="#"><em>공지</em>천연기념물센터 강당 대관 서비스 이용 안내</a></li>
+                <li><a href="#"><em>공지</em>「자유대전 멘토링 프로그램」 10월 참가자를 모집합니다.</a></li>
+                <li><a href="#"><em>공지</em>천연기념물센터 10기 선인자원봉사자 모집</a></li>
+              </ul>
+              <ul class="board" role="tabpanel" id="boardPanel2" aria-labelledby="boardTab2" hidden>
+                <li><a href="#"><em>채용</em>[채용 공고 제목을 입력하세요]</a></li>
+                <li><a href="#"><em>채용</em>[채용 공고 제목을 입력하세요]</a></li>
+              </ul>
+              <ul class="board" role="tabpanel" id="boardPanel3" aria-labelledby="boardTab3" hidden>
+                <li><a href="#"><em>입찰</em>[입찰 공고 제목을 입력하세요]</a></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker">
+        <div class="inner ticker-inner">
+          <div class="roll" data-roll aria-label="공지 알림">
+            <strong class="roll-label">Notice</strong>
+            <ul class="roll-list" data-roll-list aria-live="polite">
+              <li><a href="#"><em>공지</em>천연기념물센터 털매머드 전시공간 관람 제한 안내</a></li>
+              <li><a href="#"><em>공지</em>천연기념물센터 강당 대관 서비스 이용 안내</a></li>
+              <li><a href="#"><em>공지</em>천연기념물센터 10기 선인자원봉사자 모집</a></li>
+            </ul>
+            <div class="roll-ctrl"><button type="button" data-roll-prev><span class="sr-only">이전 공지</span></button><button type="button" data-roll-next><span class="sr-only">다음 공지</span></button></div>
+          </div>
+          <div class="roll" data-roll aria-label="소식 알림">
+            <strong class="roll-label">News</strong>
+            <ul class="roll-list" data-roll-list aria-live="polite">
+              <li><a href="#"><em>소식</em>하반기 천연기념물센터, 숨은 변화 포착!!</a></li>
+              <li><a href="#"><em>소식</em>2024년 천연기념물센터 가을소식지 발간</a></li>
+            </ul>
+            <div class="roll-ctrl"><button type="button" data-roll-prev><span class="sr-only">이전 소식</span></button><button type="button" data-roll-next><span class="sr-only">다음 소식</span></button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 전시관 둘러보기 -->
+    <section class="sec sec-exhibit" aria-labelledby="exhibitTitle">
+      <svg class="deco deco-paws" viewBox="0 0 140 280" aria-hidden="true"><g transform="rotate(-150 90 30)"><ellipse cx="90" cy="30" rx="15" ry="13"/><circle cx="80" cy="14" r="3.4"/><circle cx="90" cy="11" r="3.4"/><circle cx="100" cy="14" r="3.4"/></g><g transform="rotate(-160 60 100)"><ellipse cx="60" cy="100" rx="15" ry="13"/><circle cx="50" cy="84" r="3.4"/><circle cx="60" cy="81" r="3.4"/><circle cx="70" cy="84" r="3.4"/></g><g transform="rotate(-170 50 170)"><ellipse cx="50" cy="170" rx="15" ry="13"/><circle cx="40" cy="154" r="3.4"/><circle cx="50" cy="151" r="3.4"/><circle cx="60" cy="154" r="3.4"/></g><g transform="rotate(-175 30 240)"><ellipse cx="30" cy="240" rx="15" ry="13"/><circle cx="20" cy="224" r="3.4"/><circle cx="30" cy="221" r="3.4"/><circle cx="40" cy="224" r="3.4"/></g></svg>
+      <svg class="deco deco-leaf" viewBox="0 0 160 160" aria-hidden="true"><path d="M40 140C40 80 80 36 140 28c-4 62-42 108-100 112z" fill="#E6EADD"/><path d="M44 136c26-32 54-64 88-102" stroke="#ECE8E7" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M20 96c-6-32 10-56 42-66 4 32-12 58-42 66z" fill="#EFE2DD"/></svg>
+      <div class="inner">
+        <div class="sec-head">
+          <svg class="sprout" viewBox="0 0 40 24" aria-hidden="true"><path d="M20 23V8" stroke="#8E9A78" stroke-width="1.8" stroke-linecap="round"/><path d="M20 15C14 15 10 11 9 6c6 0 10 3 11 9z" fill="#B6BEA3"/><path d="M20 11c6 0 10-4 11-9-6 0-10 3-11 9z" fill="#D9B8AC"/></svg>
+          <h2 id="exhibitTitle">전시관 둘러보기</h2>
+          <p>매머드 화석부터 살아 있는 동·식물까지</p>
+        </div>
+
+        <div class="exhibit-grid">
+          <div class="card card-map">
+            <div class="map-head"><h3>전시관 안내도</h3><p>전시존을 누르면 소개가 바뀝니다</p></div>
+            <div class="map" data-map>
+              <img src="images/전시관 안내도.png" alt="전시관 평면 안내도: 입구와 로비를 중심으로 동물, 지질, 천연보호구역, 식물, 명승, 한반도의 자연유산 전시존이 배치되어 있습니다." width="745" height="424">
+              <button type="button" class="zone-hit" style="left:4.7%;top:20%;width:30.2%;height:27.1%" data-zone="0" aria-pressed="true">동물 전시존</button>
+              <button type="button" class="zone-hit" style="left:36.2%;top:19.6%;width:31.2%;height:27.6%" data-zone="1" aria-pressed="false">지질 전시존</button>
+              <button type="button" class="zone-hit" style="left:69.8%;top:20%;width:26.2%;height:27.1%" data-zone="2" aria-pressed="false">천연보호구역</button>
+              <button type="button" class="zone-hit" style="left:3.8%;top:54.7%;width:21.1%;height:36.1%" data-zone="3" aria-pressed="false">식물 전시존</button>
+              <button type="button" class="zone-hit" style="left:68.7%;top:53.1%;width:10.5%;height:37.7%" data-zone="4" aria-pressed="false">명승</button>
+              <button type="button" class="zone-hit" style="left:80.5%;top:52%;width:17%;height:39%" data-zone="5" aria-pressed="false">한반도의 자연유산</button>
+            </div>
+          </div>
+
+          <article class="card card-zone" aria-live="polite">
+            <div class="zone-media" data-zone-media><img src="images/동물전시존.jpg" alt="반달가슴곰과 황새, 두루미 등 천연기념물 동물 표본 전시"></div>
+            <div class="zone-body">
+              <h3 data-zone-title>동물 전시존</h3>
+              <p data-zone-desc>식물 전시존 다음엔 천연기념물 ‘동물’ 전시존이 기다리고 있어요.</p>
+              <div class="zone-foot">
+                <a href="sub/zone.html" class="btn-line">전시관 전체 보기</a>
+                <div class="zone-nav">
+                  <button type="button" class="circle circle-prev" data-zone-prev><span class="sr-only">이전 전시존</span></button>
+                  <button type="button" class="circle circle-next" data-zone-next><span class="sr-only">다음 전시존</span></button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 소식·행사 -->
+    <section class="sec sec-news" aria-labelledby="newsTitle">
+      <svg class="deco deco-leaf2" viewBox="0 0 120 120" aria-hidden="true"><path d="M10 110C10 60 50 18 110 10c-4 56-40 96-100 100z" fill="#E6EADD"/><path d="M16 104C44 76 70 48 102 18" stroke="#F7F7F6" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+      <svg class="deco deco-rings" viewBox="0 0 240 240" aria-hidden="true"><circle cx="120" cy="120" r="118"/><circle cx="120" cy="120" r="82"/></svg>
+      <div class="inner">
+        <div class="sec-head">
+          <svg class="sprout" viewBox="0 0 40 24" aria-hidden="true"><path d="M20 23V8" stroke="#8E9A78" stroke-width="1.8" stroke-linecap="round"/><path d="M20 15C14 15 10 11 9 6c6 0 10 3 11 9z" fill="#B6BEA3"/><path d="M20 11c6 0 10-4 11-9-6 0-10 3-11 9z" fill="#D9B8AC"/></svg>
+          <h2 id="newsTitle">소식 · 행사</h2>
+          <p>공지사항과 진행 중인 행사를 확인하세요</p>
+        </div>
+
+        <div class="tabs tabs-center" role="tablist" aria-label="소식 분류" data-news-tabs>
+          <button type="button" role="tab" aria-selected="true" data-cat="all">전체</button>
+          <button type="button" role="tab" aria-selected="false" data-cat="공지">공지</button>
+          <button type="button" role="tab" aria-selected="false" data-cat="교육">교육</button>
+          <button type="button" role="tab" aria-selected="false" data-cat="행사">행사</button>
+        </div>
+
+        <ul class="news-list" data-news-list aria-live="polite"></ul>
+
+        <div class="pager" data-news-pager>
+          <span class="pager-count" data-news-count>1 / 2</span>
+          <button type="button" class="circle circle-prev" data-news-prev><span class="sr-only">이전 소식</span></button>
+          <button type="button" class="circle circle-next" data-news-next><span class="sr-only">다음 소식</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 교육·체험 -->
+    <section class="sec sec-edu" aria-labelledby="eduTitle">
+      <div class="inner">
+        <div class="edu-box">
+          <svg class="deco edu-rings" viewBox="0 0 400 400" aria-hidden="true"><circle cx="300" cy="100" r="90"/><circle cx="300" cy="100" r="140"/><circle cx="300" cy="100" r="190"/></svg>
+          <svg class="deco edu-paws" viewBox="0 0 120 160" aria-hidden="true"><g transform="rotate(20 80 20)"><ellipse cx="80" cy="24" rx="15" ry="13"/><circle cx="70" cy="8" r="3.4"/><circle cx="80" cy="5" r="3.4"/><circle cx="90" cy="8" r="3.4"/></g><g transform="rotate(15 50 80)"><ellipse cx="50" cy="84" rx="15" ry="13"/><circle cx="40" cy="68" r="3.4"/><circle cx="50" cy="65" r="3.4"/><circle cx="60" cy="68" r="3.4"/></g><g transform="rotate(10 30 140)"><ellipse cx="30" cy="140" rx="15" ry="13"/><circle cx="20" cy="124" r="3.4"/><circle cx="30" cy="121" r="3.4"/><circle cx="40" cy="124" r="3.4"/></g></svg>
+          <svg class="deco spark spark1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.4 9.6L24 12l-9.6 2.4L12 24l-2.4-9.6L0 12l9.6-2.4z"/></svg>
+          <svg class="deco spark spark2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.4 9.6L24 12l-9.6 2.4L12 24l-2.4-9.6L0 12l9.6-2.4z"/></svg>
+
+          <div class="sec-head sec-head-light">
+            <svg class="sprout" viewBox="0 0 40 24" aria-hidden="true"><path d="M20 23V8" stroke="#C9D2BC" stroke-width="1.8" stroke-linecap="round"/><path d="M20 15C14 15 10 11 9 6c6 0 10 3 11 9z" fill="#C9D2BC"/><path d="M20 11c6 0 10-4 11-9-6 0-10 3-11 9z" fill="#E6C7BC"/></svg>
+            <h2 id="eduTitle">교육 · 체험</h2>
+            <p>배우고 직접 해 보는 자연유산</p>
+          </div>
+
+          <div class="tabs tabs-center tabs-white" role="tablist" aria-label="교육·체험 분류">
+            <button type="button" role="tab" aria-selected="false" aria-controls="eduPanel1" id="eduTab1">교육프로그램</button>
+            <button type="button" role="tab" aria-selected="true" aria-controls="eduPanel2" id="eduTab2">체험 게임</button>          </div>
+
+          <div class="edu-panel" role="tabpanel" id="eduPanel1" aria-labelledby="eduTab1" hidden>
+            <div class="edu-img"><img src="images/edu-guide.jpg" alt="전시실에서 해설을 듣는 관람객" loading="lazy"></div>
+            <div class="edu-txt">
+              <span class="badge">상시 운영</span>
+              <h3>자연유산알림이와 함께하는 전시 해설</h3>
+              <p>별도의 신청 없이 전시실에 상주하는 ‘자연유산알림이’의 해설을 들을 수 있어요.</p>
+              <a href="sub/edu.html" class="btn-sage">프로그램 보기</a>
+            </div>
+          </div>
+          <div class="edu-panel" role="tabpanel" id="eduPanel2" aria-labelledby="eduTab2">
+            <div class="edu-img"><img src="images/game-board.png" alt="매머드 골격 맞추기 게임 화면: 앞다리 한 조각만 남은 털매머드 골격" loading="lazy"></div>
+            <div class="edu-txt">
+              <h3>매머드 뼈조각 맞추기</h3>
+              <p>흩어진 뼈를 제자리에 놓아 매머드 골격을 완성해 보세요</p>
+              <a href="sub/game.html" class="btn-sage">게임 하러 가기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <svg class="land" viewBox="0 0 1920 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <g fill="#EEEAE7"><rect x="830" y="96" width="120" height="24" rx="12"/><circle cx="862" cy="94" r="18"/><circle cx="900" cy="86" r="24"/><circle cx="930" cy="100" r="14"/><rect x="520" y="72" width="170" height="32" rx="16"/><circle cx="562" cy="70" r="26"/><circle cx="616" cy="58" r="34"/><circle cx="660" cy="78" r="20"/><rect x="1220" y="70" width="180" height="32" rx="16"/><circle cx="1264" cy="68" r="26"/><circle cx="1322" cy="56" r="34"/><circle cx="1372" cy="76" r="18"/></g>
+      <path class="sun-rays" d="M1130 52h10M1118.3 80.3l7.1 7.1M1090 92v10M1061.7 80.3l-7.1 7.1M1050 52h-10M1061.7 23.7l-7.1-7.1M1090 12V2M1118.3 23.7l7.1-7.1" stroke="#D3DBC6" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <circle cx="1090" cy="52" r="34" fill="#E4E9DC"/><circle cx="1090" cy="52" r="22" fill="#AEB79A"/>
+      <g stroke="#B9AEA9" stroke-width="2" fill="none" stroke-linecap="round"><path d="M760 56q10-8 20 0q10-8 20 0"/><path d="M808 34q7-6 14 0q7-6 14 0"/><path d="M975 30q8-6 16 0q8-6 16 0"/></g>
+      <path d="M0 290C160 214 290 240 430 200 570 160 700 226 860 186 1020 146 1180 212 1340 172 1500 132 1680 176 1920 160V360H0Z" fill="#E7E1DD"/>
+      <path d="M0 310C210 266 400 300 610 276 820 252 1010 300 1220 282 1430 266 1640 290 1920 270V360H0Z" fill="#DCD3CE"/>
+      <g fill="#AEB79A"><circle cx="200" cy="270" r="24"/><circle cx="242" cy="282" r="17"/><circle cx="843" cy="252" r="21"/><circle cx="883" cy="264" r="15"/><circle cx="1682" cy="268" r="23"/><circle cx="1728" cy="274" r="16"/><circle cx="1773" cy="266" r="20"/></g>
+      <g stroke="#9C918C" stroke-width="3" stroke-linecap="round"><path d="M200 294v20M242 299v14M843 273v16M883 279v12M1682 291v18M1728 290v14M1773 286v16"/></g>
+      <path d="M0 340C400 326 800 346 1200 334 1500 326 1700 340 1920 334V360H0Z" fill="#ECE7E4"/>
+      <g class="land-mammoth" transform="translate(1040 212) scale(.8)" fill="#9C918C"><ellipse cx="130" cy="74" rx="66" ry="44"/><circle cx="64" cy="58" r="30"/><circle cx="74" cy="34" r="17"/><path class="m-trunk" d="M40 64c-12 22-12 48-2 66l10-2c-6-18-4-40 6-54z"/><path class="m-toot" d="M-2 6l-12-4M0-4l-10-10M10-10l-2-14" stroke="#9C918C" stroke-width="4" stroke-linecap="round" fill="none"/><rect x="80" y="92" width="20" height="48" rx="7"/><rect x="104" y="96" width="20" height="44" rx="7"/><rect x="152" y="96" width="20" height="44" rx="7"/><rect x="174" y="92" width="20" height="48" rx="7"/><path d="M194 64c10 6 12 18 8 28" stroke="#9C918C" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M50 82c-8 22 8 34 30 24" stroke="#F3EEEA" stroke-width="7" fill="none" stroke-linecap="round"/></g>
+    </svg>
+    <div class="footer-body">
+      <div class="inner">
+        <div class="f-top">
+          <img class="f-logo" src="images/logo.png" alt="천연기념물센터" width="188" height="40" loading="lazy">
+          <nav class="f-menu" aria-label="사이트맵">
+            <div><h2>관람·예약</h2><ul><li><a href="sub/guide.html">관람 안내</a></li><li><a href="sub/route.html">오시는 길</a></li><li><a href="sub/group.html">단체관람 예약</a></li><li><a href="sub/faq.html">자주 묻는 질문</a></li></ul></div><div><h2>전시</h2><ul><li><a href="sub/zone.html">전시관 둘러보기</a></li><li><a href="sub/special.html">기획전시</a></li></ul></div><div><h2>교육·체험</h2><ul><li><a href="sub/edu.html">교육프로그램</a></li><li><a href="sub/game.html">체험 게임</a></li></ul></div><div><h2>소식·행사</h2><ul><li><a href="sub/notice.html">공지사항</a></li><li><a href="sub/event.html">행사 안내</a></li></ul></div><div><h2>센터 소개</h2><ul><li><a href="sub/about.html">기관 소개</a></li><li><a href="sub/history.html">연혁</a></li></ul></div>
+          </nav>
+        </div>
+        <div class="f-bottom">
+          <div class="f-info">
+            <ul class="f-policy"><li><a href="#" class="strong">개인정보처리방침</a></li><li><a href="#">이용약관</a></li><li><a href="#">저작권정책</a></li><li><a href="#">이메일무단수집거부</a></li></ul>
+            <address>(35204) 대전광역시 서구 유등로 927 <span aria-hidden="true">|</span> T. <a href="tel:0426107610">042-610-7610</a></address>
+            <p class="copyright">Copyright © <span data-year>2026</span> NATURAL HERITAGE CENTER. All rights reserved.</p>
+          </div>
+          <div class="f-util">
+            <ul class="sns">
+              <li><a href="#" aria-label="엑스(X)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a></li>
+              <li><a href="#" aria-label="유튜브"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5v5l4.5-2.5z" class="fill"/></svg></a></li>
+              <li><a href="#" aria-label="인스타그램"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a></li>
+              <li><a href="#" aria-label="블로그"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11h-9l-4 3.5V16H4z"/></svg></a></li>
+            </ul>
+            <div class="family">
+              <button type="button" class="family-btn" aria-expanded="false" aria-controls="familyList">관련기관 바로가기</button>
+              <ul class="family-list" id="familyList" hidden>
+                <li><a href="https://www.khs.go.kr" target="_blank" rel="noopener">국가유산청</a></li>
+                <li><a href="https://www.nrich.go.kr" target="_blank" rel="noopener">국립문화유산연구원</a></li>
+                <li><a href="https://www.heritage.go.kr" target="_blank" rel="noopener">국가유산포털</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

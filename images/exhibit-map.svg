@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#493f32" flood-opacity=".12"/>
+    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/><stop offset="1" stop-color="#f3ecdf"/>
+    </linearGradient>
+    <linearGradient id="lobby" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#eee7d9"/>
+    </linearGradient>
+    <style>
+      .ko{font-family:"Pretendard","Noto Sans KR","Malgun Gothic",sans-serif;fill:#40382d}
+      .title{font-size:29px;font-weight:700;letter-spacing:-1px}
+      .sub{font-size:15px;fill:#786b59}
+      .zone{font-size:17px;font-weight:650;letter-spacing:-.5px}
+      .small{font-size:13px;fill:#746957}
+      .pill{fill:#fffdf8;stroke:#e8dfd0;stroke-width:1}
+      .pin{fill:#4d5146}
+      .line{stroke:#a99b82;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1440" height="900" fill="#f8f4ec"/>
+  <g class="ko">
+    <g transform="translate(66 48)">
+      <path d="M16 25 C2 12 10 1 19 4 C28 7 27 16 16 25Z" fill="#566b42"/>
+      <path d="M21 27 C19 10 33 4 39 8 C40 18 31 25 21 27Z" fill="#7e8c5c"/>
+      <path d="M16 28 L9 40 M20 28 L29 40" stroke="#566b42" stroke-width="3" stroke-linecap="round"/>
+      <text x="54" y="23" class="title">천연기념물센터</text>
+      <text x="55" y="47" class="sub">자연과 함께하는 특별한 공간</text>
+    </g>
+    <text x="1370" y="71" text-anchor="end" class="sub">소중한 자연유산,</text>
+    <text x="1370" y="94" text-anchor="end" class="sub">우리의 미래입니다.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M90 180 Q90 145 126 145 H1312 Q1344 145 1344 179 V405 H1371 Q1400 405 1400 436 V722 Q1400 754 1367 754 H875 V724 H512 V754 H128 Q90 754 90 715 Z"
+      fill="#fffdf8" stroke="#8b7b6d" stroke-width="9" stroke-linejoin="round"/>
+  </g>
+  <!-- Animal hall -->
+  <path d="M130 185 Q130 170 150 170 H390 Q450 170 450 226 V272 Q450 326 389 344 L167 365 Q130 367 130 328Z" fill="#f4e4c8"/>
+  <g transform="translate(300 262)">
+    <path d="M16 30 C16 18 26 11 39 12 C48 2 63 5 69 17 C79 17 85 26 82 37 L72 49 C59 57 39 55 25 48Z" fill="#bf9251"/>
+    <circle cx="65" cy="17" r="12" fill="#bf9251"/><circle cx="69" cy="14" r="2.7" fill="#3e3327"/>
+    <path d="M77 18 L91 22 L78 26Z" fill="#554638"/>
+    <path d="M43 52 L43 65 M54 52 L54 65" stroke="#75614a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M17 29 Q7 38 15 47 Q27 42 28 31Z" fill="#ae7f43"/>
+  </g>
+  <g class="ko">
+    <rect x="150" y="224" width="122" height="34" rx="17" class="pill"/>
+    <text x="211" y="246" text-anchor="middle" class="zone">동물 전시존</text>
+  </g>
+  <g transform="translate(226 181)">
+    <path class="pin" d="M0 0 C-12 0 -18 9 -18 19 C-18 29 0 47 0 47 C0 47 18 29 18 19 C18 9 12 0 0 0Z"/>
+    <circle cx="0" cy="18" r="6" fill="#fffdf8"/>
+  </g>
+  <!-- Geology -->
+  <path d="M475 170 H1017 Q1050 170 1050 202 V245 Q1050 267 1020 271 L515 301 Q475 303 475 267Z" fill="#efdfd1"/>
+  <g transform="translate(840 188)">
+    <path d="M0 45 Q36 -13 87 12 Q108 22 117 45Z" fill="#b98d6d"/>
+    <path d="M-2 45 Q48 27 118 45" fill="none" stroke="#fff8ef" stroke-width="7"/>
+    <path d="M-1 56 Q50 40 119 56" fill="none" stroke="#fff8ef" stroke-width="6"/>
+    <circle cx="47" cy="19" r="6" fill="#8d6c56"/>
+  </g>
+  <g class="ko">
+    <rect x="500" y="224" width="122" height="34" rx="17" class="pill"/>
+    <text x="561" y="246" text-anchor="middle" class="zone">지질 전시존</text>
+  </g>
+  <g transform="translate(583 181)">
+    <path class="pin" d="M0 0 C-12 0 -18 9 -18 19 C-18 29 0 47 0 47 C0 47 18 29 18 19 C18 9 12 0 0 0Z"/>
+    <circle cx="0" cy="18" r="6" fill="#fffdf8"/>
+  </g>
+  <!-- protected nature -->
+  <path d="M1080 325 L1328 305 Q1350 303 1350 328 V380 Q1350 404 1325 404 H1095 Q1070 404 1070 380Z" fill="#dfe8d4"/>
+  <g>
+    <path d="M1190 367 V337 M1216 367 V341" stroke="#6b7f55" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="1189" cy="329" r="23" fill="#92aa78"/><circle cx="1217" cy="337" r="18" fill="#7d9868"/>
+  </g>
+  <g class="ko">
+    <rect x="1091" y="356" width="163" height="33" rx="16" class="pill"/>
+    <text x="1172" y="378" text-anchor="middle" class="zone">천연보호구역</text>
+  </g>
+  <!-- Plant zone -->
+  <path d="M130 390 Q130 375 149 375 H360 Q389 375 389 404 V476 Q389 504 360 504 H159 Q130 504 130 475Z" fill="#dce8d9"/>
+  <g transform="translate(272 405)">
+    <path d="M0 67 V9" stroke="#6c7555" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0 27 Q-37 25 -43 -4 Q-12 -5 0 27Z" fill="#86a47c"/>
+    <path d="M1 44 Q29 5 53 7 Q47 39 1 44Z" fill="#668c67"/>
+    <path d="M0 58 Q-29 35 -42 44 Q-28 67 0 58Z" fill="#9ab28d"/>
+  </g>
+  <g class="ko">
+    <rect x="150" y="414" width="122" height="34" rx="17" class="pill"/>
+    <text x="211" y="436" text-anchor="middle" class="zone">식물 전시존</text>
+  </g>
+  <g transform="translate(211 367)">
+    <path class="pin" d="M0 0 C-12 0 -18 9 -18 19 C-18 29 0 47 0 47 C0 47 18 29 18 19 C18 9 12 0 0 0Z"/>
+    <circle cx="0" cy="18" r="6" fill="#fffdf8"/>
+  </g>
+  <!-- Lobby -->
+  <rect x="410" y="322" width="650" height="330" rx="64" fill="url(#lobby)" stroke="#d5c7b1" stroke-width="2"/>
+  <rect x="421" y="333" width="628" height="308" rx="54" fill="none" stroke="#c9d9d7" stroke-width="3" stroke-dasharray="10 9"/>
+  <g class="ko">
+    <text x="483" y="430" class="small">로비</text>
+    <circle cx="677" cy="424" r="28" fill="#e8e3d9"/>
+    <text x="677" y="433" text-anchor="middle" font-size="26" font-style="italic" fill="#777064">i</text>
+    <text x="677" y="472" text-anchor="middle" class="small">안내</text>
+    <g transform="translate(850 400)">
+      <circle cx="0" cy="0" r="12" fill="#a9cbd0"/><rect x="-10" y="16" width="20" height="41" rx="10" fill="#a9cbd0"/>
+      <circle cx="52" cy="0" r="12" fill="#d95b67"/><path d="M52 15 L38 58 H66Z" fill="#d95b67"/>
+    </g>
+    <text x="876" y="472" text-anchor="middle" class="small">화장실</text>
+  </g>
+  <!-- Scenic site -->
+  <path d="M1080 428 Q1080 405 1103 405 H1198 Q1220 405 1220 428 V650 Q1220 673 1198 673 H1103 Q1080 673 1080 650Z" fill="#dce8ed"/>
+  <g transform="translate(1097 570)">
+    <circle cx="83" cy="-6" r="14" fill="#fffdf8"/>
+    <path d="M0 44 L31 0 L55 30 L74 8 L108 44Z" fill="#8fb2bf"/>
+    <path d="M23 12 L31 0 L40 12 L34 10 L30 15Z" fill="#fffdf8"/>
+    <path d="M65 19 L74 8 L83 20 L77 18 L73 23Z" fill="#fffdf8"/>
+  </g>
+  <g class="ko">
+    <rect x="1103" y="453" width="94" height="34" rx="17" class="pill"/>
+    <text x="1150" y="475" text-anchor="middle" class="zone">명승</text>
+  </g>
+  <g transform="translate(1148 417)">
+    <path class="pin" d="M0 0 C-12 0 -18 9 -18 19 C-18 29 0 47 0 47 C0 47 18 29 18 19 C18 9 12 0 0 0Z" opacity=".8"/>
+    <circle cx="0" cy="18" r="6" fill="#fffdf8"/>
+  </g>
+  <!-- Korean natural heritage -->
+  <path d="M1244 435 Q1244 411 1268 411 H1345 Q1370 411 1370 436 V650 Q1370 676 1344 676 H1270 Q1244 676 1244 650Z" fill="#f3dfe5"/>
+  <g transform="translate(1307 590)">
+    <g fill="#d985a2">
+      <ellipse cx="0" cy="-22" rx="16" ry="23"/><ellipse cx="21" cy="-7" rx="16" ry="23" transform="rotate(55 21 -7)"/>
+      <ellipse cx="13" cy="18" rx="16" ry="23" transform="rotate(115 13 18)"/><ellipse cx="-13" cy="18" rx="16" ry="23" transform="rotate(160 -13 18)"/>
+      <ellipse cx="-22" cy="-7" rx="16" ry="23" transform="rotate(35 -22 -7)"/>
+    </g><circle r="13" fill="#d9b45f"/>
+  </g>
+  <g class="ko">
+    <rect x="1253" y="461" width="108" height="50" rx="23" class="pill"/>
+    <text x="1307" y="482" text-anchor="middle" class="zone">한반도의</text><text x="1307" y="500" text-anchor="middle" class="zone">자연유산</text>
+  </g>
+  <g transform="translate(1307 423)">
+    <path class="pin" d="M0 0 C-12 0 -18 9 -18 19 C-18 29 0 47 0 47 C0 47 18 29 18 19 C18 9 12 0 0 0Z"/>
+    <circle cx="0" cy="18" r="6" fill="#fffdf8"/>
+  </g>
+  <!-- Entrance -->
+  <path d="M515 754 V704 H635 M875 704 H995 V754" fill="none" stroke="#8b7b6d" stroke-width="9"/>
+  <g class="ko">
+    <path d="M750 725 L730 754 H770Z" fill="#40382d"/>
+    <text x="750" y="784" text-anchor="middle" class="zone">출입구</text>
+  </g>
+  <!-- subtle ground details -->
+  <g fill="#a8b897" opacity=".85">
+    <circle cx="146" cy="694" r="12"/><circle cx="165" cy="684" r="17"/><circle cx="185" cy="697" r="11"/>
+    <circle cx="1302" cy="701" r="13"/><circle cx="1321" cy="688" r="18"/><circle cx="1341" cy="701" r="11"/>
+  </g>
+</svg>
