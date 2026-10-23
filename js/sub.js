@@ -46,8 +46,9 @@
       $$('[data-sum-date]').forEach((el) => (el.textContent = state.date ? fmt(state.date) : '-'));
       $$('[data-sum-slot]').forEach((el) => (el.textContent = state.slot !== null ? `${SLOTS[state.slot].name} · ${SLOTS[state.slot].start}` : '-'));
       $$('[data-sum-count]').forEach((el) => (el.textContent = `${state.count}명`));
-      countOut.textContent = `${state.count}명`;
+      if (document.activeElement !== countOut) countOut.value = state.count;
       const max = maxCount();
+      countOut.max = max;
       minus.disabled = state.count <= MIN;
       plus.disabled = state.count >= max;
       hint.textContent = state.slot !== null ? `10명 이상, 최대 ${max}명까지 신청할 수 있어요` : '10명 이상부터 신청할 수 있어요';
@@ -124,6 +125,23 @@
     nextM.addEventListener('click', () => { state.view.setMonth(state.view.getMonth() + 1); renderCal(); });
     minus.addEventListener('click', () => { state.count = Math.max(MIN, state.count - 1); renderSummary(); });
     plus.addEventListener('click', () => { state.count = Math.min(maxCount(), state.count + 1); renderSummary(); });
+    // 키보드로 인원 직접 입력
+    countOut.addEventListener('input', () => {
+      const v = parseInt(countOut.value, 10);
+      if (Number.isNaN(v)) return;
+      state.count = Math.min(Math.max(v, 0), maxCount());
+      renderSummary();
+    });
+    const fixCount = () => {
+      const v = parseInt(countOut.value, 10);
+      state.count = Math.min(Math.max(Number.isNaN(v) ? MIN : v, MIN), maxCount());
+      countOut.value = state.count;
+      renderSummary();
+    };
+    countOut.addEventListener('change', fixCount);
+    countOut.addEventListener('blur', fixCount);
+    countOut.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); countOut.blur(); } });
+    countOut.addEventListener('focus', () => countOut.select());
 
     const goStep = (n) => {
       panels.forEach((p) => (p.hidden = Number(p.dataset.step) !== n));

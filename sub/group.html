@@ -117,10 +117,10 @@
               <dd>
                 <div class="counter">
                   <button type="button" data-count-minus><span class="sr-only">인원 줄이기</span>−</button>
-                  <output data-count aria-labelledby="countLabel" aria-live="polite">20명</output>
+                  <label class="count-field"><input type="number" inputmode="numeric" min="10" max="40" step="1" value="20" data-count aria-labelledby="countLabel" aria-describedby="countHint"><span aria-hidden="true">명</span></label>
                   <button type="button" data-count-plus><span class="sr-only">인원 늘리기</span>+</button>
                 </div>
-                <p class="hint" data-count-hint>10명 이상부터 신청할 수 있어요</p>
+                <p class="hint" id="countHint" data-count-hint>10명 이상부터 신청할 수 있어요</p>
               </dd>
             </div>
           </dl>
